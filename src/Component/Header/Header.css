@@ -1,0 +1,90 @@
+.header{
+    width: 100%;
+    height: 60px; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header h1{
+    height: 100%;
+    margin: 0%;
+    display: flex;
+    align-items: center;
+}
+
+.themes{
+    height: 100%;
+    font-family: League Spartan;
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.themes *{
+    margin: 0%;
+    height: 100% ;
+    display: flex;
+    align-items: center;
+}
+
+.themes .right{
+    font-family: League Spartan;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+
+.themes .right .top ,  .themes .right .bottom{
+    display: flex;
+    justify-content: space-around;
+    list-style: none !important;
+    width: 100%;
+    height: min-content;
+}
+
+.themes .left p{
+    font-size: 0.75em;
+    font-family: League Spartan;
+    font-weight: 400;
+}
+
+
+.themes .right .top{
+    display: flex;
+    gap: 15px;
+
+}
+
+.themes .right .bottom{
+    transition: 1s;
+    background-color: hsla(223, 31%, 20%,0.6);
+    border-radius: 20px;
+    height: min-content;
+    padding: 5px 5px 5px 5px;
+}
+
+.change.theme-1 , .change.theme-2{
+    background-color: hsl(25, 98%, 40%);
+}
+
+
+.change{
+    background-color: antiquewhite;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+
+.header.theme-1 {
+    color: hsl(0,100%,100%);
+}
+
+.header.theme-2{
+    color: rgb(0,0,0);
+}
+
+.header.theme-3{
+    color: hsl(52, 100%, 62%);
+}

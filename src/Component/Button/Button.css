@@ -1,0 +1,89 @@
+.button{
+    width: 100px;
+    height: 60px;
+    border-radius: 10px;
+    border: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.75em;
+    font-family: League Spartan;
+}
+
+.button.theme-1{
+    color: hsl(221, 14%, 31%);
+    background-color: hsl(30, 25%, 89%);
+    box-shadow: -2px 7px 6px -3px hsl(28, 16%, 65%);
+}
+
+.del.theme-1{
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(225, 21%, 49%);
+    box-shadow: -2px 7px 6px -3px hsl(224, 28%, 35%);
+}
+
+.reset.theme-1{
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(225, 21%, 49%);
+    box-shadow: -2px 7px 6px -3px hsl(224, 28%, 35%);
+    width: 49% !important;
+}
+
+.equal.theme-1{
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(6, 63%, 49%);
+    box-shadow: -2px 7px 6px -3px hsl(6, 70%, 34%);
+    width: 49%;
+}
+
+.button.theme-2{
+    color: hsl(221, 14%, 31%);
+    background-color: hsl(49, 7%, 89%);
+    box-shadow: -2px 7px 6px -3px hsl(35, 11%, 61%);
+}
+
+.del.theme-2{
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(185, 42%, 37%);
+    box-shadow: -2px 7px 6px -3px hsl(185, 58%, 25%);
+}
+
+.reset.theme-2{
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(185, 42%, 37%);
+    box-shadow: -2px 7px 6px -3px hsl(185, 58%, 25%);
+    width: 49% !important;
+}
+
+.equal.theme-2{
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(6, 63%, 49%);
+    box-shadow: -2px 7px 6px -3px hsl(6, 70%, 34%);
+    width: 49%;
+}
+
+.button.theme-3{
+    color: hsl(52, 100%, 62%);
+    background-color: hsl(268, 47%, 21%);
+    box-shadow: -2px 7px 6px -3px hsl(290, 70%, 36%);
+}
+
+.del.theme-3{
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(281, 89%, 26%);
+    box-shadow: -2px 7px 6px -3px hsl(285, 91%, 52%);
+}
+
+.reset.theme-3{
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(281, 89%, 26%);
+    box-shadow: -2px 7px 6px -3px hsl(285, 91%, 52%);
+    width: 49% !important;
+}
+
+.equal.theme-3{
+    color: hsl(198, 20%, 13%);
+    background-color: hsl(176, 100%, 44%);
+    box-shadow: -2px 7px 6px -3px hsl(177, 92%, 70%);
+    width: 49%;
+}

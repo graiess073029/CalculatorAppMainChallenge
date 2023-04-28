@@ -1,0 +1,32 @@
+.console{
+    width: 85%;
+    height: 120px;
+    padding: 0% 7.5% 0% 7.5%;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    font-family: League Spartan;
+}
+
+.console.theme-1{
+    background-color: hsl(224, 36%, 15%);
+    color: hsl(0, 100% , 100%);
+}
+
+
+.console.theme-2{
+    background-color: hsl(0, 27%, 98%);
+    color: hsl(0, 100%, 0%);
+
+}
+
+.console.theme-3{
+    background-color: hsl(268, 71%, 12%);
+    color: hsl(52, 100%, 62%);
+
+}
+
+.console h1{
+    font-size: 3em;
+}

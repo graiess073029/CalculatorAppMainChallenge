@@ -1,0 +1,36 @@
+
+.buttons{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.buttons.theme-1{
+    background-color: hsla(223, 31%, 20%,0.6);
+}
+
+.buttons.theme-2{
+    background-color: hsla(0, 5%, 81%,0.6);
+
+}
+.buttons.theme-3{
+    background-color: hsla(268, 71%, 12%,0.6);
+
+}
+
+
+.buttons div{
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 15px; 
+    justify-content: space-around;
+}
+
+.container{
+    width: 36%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
